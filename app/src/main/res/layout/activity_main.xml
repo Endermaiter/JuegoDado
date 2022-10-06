@@ -38,3 +38,4 @@
         android:text="@string/roll" />
 
 </LinearLayout>
+<!--La linea 38 debe tener @string/roll para que coja el string correspondiente del string.xml, segun el idioma>
