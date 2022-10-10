@@ -39,6 +39,10 @@
         ```
       * --> [Click aqui](https://github.com/Endermaiter/JuegoDado/commit/172760339bc028bbaebf2b77f227afbea0729924) para ver los cambios realizados.
       
+  * __*Modificar el boton para usar material.io y que tenga asociado un icono:*__
+  
+      *Evidentemente, lo primero que debemos hacer será descargar el icono de internet. En mi caso, descargué [*este*](https://fonts.google.com/icons?icon.platform=android) que lo encontre en la pagina de **Google Fonts** a la que me redirigió *material.io*. A continuación, importé la imagen en la carpeta *drawable* (Click derecho > New > Image Asset). Ahora solo tenemos que asociar el icono al boton. Lo hacemos entrando a los atributos del boton y, en el apartado drawableLeft, seleccionamos el icono previamente importado (El XML se modifica automaticamente). Ya tenemos el boton con el icono deseado asociado.
       
+      * --> [Click aqui](https://github.com/Endermaiter/JuegoDado/commit/3e0740caf6c287141238e1ae2ae9ec0f48357e30) para ver los cambios realizados.
       
       
