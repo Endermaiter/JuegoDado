@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        val randomInt = Random().nextInt(6) + 1
-        val drawableResource = when (randomInt) {
+        val numeros = listOf(1, 2, 3, 4, 5, 6)
+        val drawableResource = when (numeros.random()) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
